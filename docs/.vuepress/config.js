@@ -5,11 +5,12 @@ module.exports = {
         nav: [
             { text: '语法', link: '/Grammar' },
             { text: '框架', link: '/Framework' },
-            { text: '算法', link: '/Algorithms'}
+            { text: '算法', link: '/Algorithms' },
+            { text: '关于', link: '/About'}
         ],
         sidebar: {
             '/': [
-                "/", "Grammar", "Framework", "Algorithms" 
+                "Grammar", "Framework", "Algorithms", "About"
             ]
         },
         sidebarDepth: 2,
