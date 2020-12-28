@@ -4,14 +4,15 @@ module.exports = {
     logo: '/assets/img/logo.png',
     themeConfig: {
         nav: [
-            { text: '语法', link: '/Grammar' },
+            { text: '基础', link: '/Basic' },
             { text: '框架', link: '/Framework' },
+            { text: '网络', link: '/Network' },
             { text: '算法', link: '/Algorithms' },
             { text: '关于', link: '/About'}
         ],
         sidebar: {
             '/': [
-                "Grammar", "Framework", "Algorithms", "About"
+                "Basic", "Framework", "Network", "Algorithms", "About"
             ]
         },
         sidebarDepth: 2,
