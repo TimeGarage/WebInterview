@@ -1,6 +1,9 @@
 module.exports = {
     title: '前端面经',
-    head: [['link', {rel: 'shortcut icon', href: '/assets/img/favicon.ico'}]],
+    head: [
+        ['link', { rel: 'apple-touch-icon', sizes: "128x128", href: '/assets/img/book-128x128.png' }],
+        ['link', { rel: 'shortcut icon', href: '/assets/img/favicon.ico' }]
+    ],
     description: '前端面经',
     themeConfig: {
         nav: [
