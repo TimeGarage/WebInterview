@@ -1,5 +1,6 @@
 module.exports = {
     title: '前端面经',
+    head: [['link', {rel: 'shortcut icon', href: '/assets/favicons/favicon.ico'}]],
     description: '前端面经',
     themeConfig: {
         nav: [
