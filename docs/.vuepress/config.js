@@ -1,7 +1,6 @@
 module.exports = {
     title: '前端面经',
     description: '前端面经',
-    logo: '/assets/img/logo.png',
     themeConfig: {
         nav: [
             { text: '基础', link: '/Basic' },
