@@ -8,17 +8,19 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: '基础', link: '/Basic' },
-            { text: '框架', link: '/Framework' },
+            { text: '工程', link: '/Engineering' },
             { text: '网络', link: '/Network' },
+            { text: '优化', link: '/Optimize' },
             { text: '算法', link: '/Algorithms' },
+            { text: '全栈', link: '/Fullstack'},
             { text: '关于', link: '/About'}
         ],
         sidebar: {
             '/': [
-                "Basic", "Framework", "Network", "Algorithms", "About"
+                "Basic", "Engineering", "Network", "Optimize", "Algorithms", "Fullstack", "About"
             ]
         },
-        sidebarDepth: 2,
+        sidebarDepth: 4,
     },
     base: '/WebInterview/'
   }
